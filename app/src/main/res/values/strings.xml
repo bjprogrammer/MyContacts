@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Contacts</string>
+    <string name="fetch_contacts">Fetching your contacts</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="company_name">Company</string>
+    <string name="other_details">OTHER DETAILS</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#10355F</color>
+    <color name="colorPrimary">#123D6D</color>
+    <color name="loaderColor">#1c3f95</color>
+    <color name="colorAccent">#6e94aa</color>
+    <color name="primarytext">#212121</color>
+    <color name="secondarytext">#727272</color>
+
+    <color name="background">#F1F3F1</color>
+    <color name="holderColor">#C9123D6D</color>
+
+    <color name="tertiarytext">#3A7CA5</color>
+    <color name="disabletext">#595959</color>
+    <color name="disable">#CCCCCC</color>
+</resources>
