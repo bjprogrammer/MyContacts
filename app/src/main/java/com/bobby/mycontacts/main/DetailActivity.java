@@ -1,7 +1,6 @@
 package com.bobby.mycontacts.main;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
 import android.content.ContentResolver;
 import android.content.ContentUris;

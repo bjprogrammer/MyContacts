@@ -122,6 +122,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
                             if(flashbar!=null) {
                                 flashbar.dismiss();
                             }
+                            System.exit(0);
                         }
                     });
             flashbar = flashbarBuilder.build();
@@ -133,7 +134,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == Constants.CONTACTS_REQUEST_CODE) {
-            if (EasyPermissions.hasPermissions(this, Manifest.permission.ACCESS_FINE_LOCATION)) {
+            if (EasyPermissions.hasPermissions(this, Manifest.permission.READ_CONTACTS)) {
                 LoaderManager.getInstance(this).initLoader(Constants.LOADER_ID, new Bundle(), contactsLoader);
             }
         }
